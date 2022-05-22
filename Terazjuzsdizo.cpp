@@ -17,7 +17,7 @@ long long int read_QPC()
 	QueryPerformanceCounter(&count);
 	return((long long int)count.QuadPart);
 }
-void menuMST()
+void MST()
 {
 	long long int frequency, start, elapsed;
 	QueryPerformanceFrequency((LARGE_INTEGER*)&frequency);
@@ -25,7 +25,6 @@ void menuMST()
 	int action;
 	int value;
 	int min_weight, max_weight;
-	char filename[50];
 	float density;
 	bool directed = false;
 	do
@@ -191,7 +190,7 @@ void menu()
 		switch (choice)
 		{
 		case 1:
-			menuMST();
+			MST();
 			break;
 		case 2:
 			menuPath();

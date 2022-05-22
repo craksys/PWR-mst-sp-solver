@@ -90,8 +90,7 @@ void Graph::printMatrix()
         {
             if (this->matrix[i][j] == 0) // nie wypisuj 0 czyli braku krawędzi
             {
-                cout << " "<< "   ";
-                //cout << this->matrix[i][j] << "   ";
+                cout << this->matrix[i][j] << "   ";
             }
             else
             {
