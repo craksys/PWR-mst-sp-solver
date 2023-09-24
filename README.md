@@ -1,4 +1,5 @@
 # Algorytm rozwiązujący minimalne drzwo rozpinające oraz znajdujący najkrótszą ścieżkę w grafie
+Prowadzący: Z.B. (Struktury Danych i Złożność Obliczeniowa 2 SDiZO2)
 
 Użyte algorytmy:
 
